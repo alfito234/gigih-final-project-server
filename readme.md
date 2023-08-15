@@ -30,7 +30,7 @@ npm init -y
 2. Install required packages using npm:
 
 ```bash
-npm i express bcrypt mongoose cors dotenv express nodemon
+npm i express bcryptjs mongoose cors dotenv express nodemon
 ```
 
 3. To run the program, execute:
@@ -43,6 +43,7 @@ For the second option, add the following command in the package.json file within
 
 ```
 "start": "nodemon index.js"
+"dev" : "node index.js"
 ```
 
 ## Environment Variables
