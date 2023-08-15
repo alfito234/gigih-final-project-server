@@ -38,6 +38,10 @@ npm i express bcryptjs mongoose cors dotenv express nodemon
 ```bash
 npm start
 ```
+or
+```bash
+npm run dev
+```
 
 For the second option, add the following command in the package.json file within the `scripts` section:
 
